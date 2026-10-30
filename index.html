@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca de CEP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/variables.css">
+</head>
+
+<body>
+    <main class="container">
+        <div class="search-card">
+            <h1 class="text-titulo">Qual localidade você procura?</h1>
+
+            <form id="form-busca" class="search-form">
+                <input type="text" id="campo-busca" class="input-busca" placeholder="Digite o CEP" required />
+                <button type="submit" class="search-btn">Buscar</button>
+            </form>
+
+            <p id="text-instrucao" class="text-instrucao">Oito dígitos, com ou sem hífen.</p>
+
+            <div id="container-info" class="container-info">
+                <div class="col-esquerda">
+                    <h3 class="text-h3">Endereço</h3>
+                    <p id="informacoes" class="result-info"></p>
+                </div>
+
+                <div class="col-direita">
+                    <h3 class="text-h3">CEP</h3>
+                    <p id="informacao-cep" class="result-cep"></p>
+
+                    <div class="container-btn-maps">
+                        <i class="fa-solid fa-location-dot icone-maps"></i>
+                        <a href="" class="btn-maps" id="btn-maps" target="_blank" rel="noopener noreferrer">Ver no
+                            Google
+                            Maps</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="container-endereco-formatado" class="container-endereco-formatado">
+                <div class="container-copiar">
+                    <span class="text-h2">Endereço Formatado</span>
+                    <button id="btn-copiar" class="btn-copiar">
+                        <i class="fa-regular fa-copy"></i>
+                        <span id="texto-botao-copiar" class="texto-botao-copiar">Copiar Endereço</span>
+                    </button>
+                </div>
+                <p id="text-endereço-formatado" class="text-endereço-formatado"></p>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>

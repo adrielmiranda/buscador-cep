@@ -1,0 +1,65 @@
+:root {
+  --bg-gradient-page: linear-gradient(
+    135deg,
+    #0c005a 0%,
+    #1c2a8c 40%,
+    #562ac0 75%,
+    #247f7b 100%
+  );
+  --bg-gradient-sub-page: linear-gradient(
+    90deg,
+    #c3cce6 0%,
+    #c5c2e8 50%,
+    #cdc3f4 100%
+  );
+  --bg-gradient-icon-maps: linear-gradient(
+    135deg,
+    #ea4335 0%,
+    #ea4335 25%,
+    /* Vermelho */ #4285f4 25%,
+    #4285f4 50%,
+    /* Azul */ #34a853 50%,
+    #34a853 75%,
+    /* Verde */ #fbbc05 75%,
+    #fbbc05 100% /* Amarelo */
+  );
+
+  --surface-white: #ffffff;
+  --surface-secondary: #f7f5f0;
+  --surface-tertiary: #e8f0fe;
+  --surface-hover: #f5f5f5;
+
+  --primary-color: #7b3ff3;
+
+  --color-border-search: #562ac0;
+  --color-maps: #267d7d;
+  --color-placeholder: #a19e9e;
+
+  --text-main: #344054; /* Texto principal */
+  --text-muted: #0c005a; /* Texto secundário */
+  --text-endereco-format: #222222;
+
+  /*Toast*/
+  --toast-bg: #333333;
+  --cor-aviso: #f59e0b; /* Amarelo/Âmbar para alertas */
+  --cor-falha: #ef4444; /* Vermelho para erros */
+  --cor-sucesso: #10b981; /* Verde (se usar para sucesso depois) */
+
+  /*Bordas*/
+  --border-sm: 1px solid rgba(0, 0, 0, 0.12);
+  --border-md: 1px solid rgba(255, 255, 255, 0.15);
+
+  --border-seach: 1px solid #8f96a1;
+
+
+
+  /*Sombras*/
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.03);
+  --shadow-md: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.15);
+  --shadow-lg: 0 0.8rem 3.2rem 0 rgba(0, 0, 0, 0.37);
+
+  /*Arredondamento de Bordas (Border Radius)*/
+  --radius-sm: 0.8rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.6rem;
+}
