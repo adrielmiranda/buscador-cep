@@ -445,3 +445,99 @@ html {
     margin-bottom: 1rem;
   }
 }
+
+
+/* RESPONSIVIDADE PARA TELEMÓVEIS (Até 767px) */
+@media (max-width: 767.98px) {
+  .search-card {
+    padding: 2rem;
+    max-width: 100%;
+  }
+
+  .text-titulo {
+    font-size: 2.2rem;
+  }
+
+  .input-busca {
+    padding: 1rem 1.5rem;
+  }
+
+  .input-busca::placeholder {
+    font-size: 1.2rem;
+  }
+
+  .search-btn {
+    padding: 1.1rem 2rem;
+  }
+
+  .text-instrucao {
+    font-size: 1.1rem;
+  }
+
+  .text-h3 {
+    font-size: 1.2rem;
+  }
+
+  .result-info {
+    font-size: 1.4rem;
+  }
+
+  .result-info .text-span__logradouro {
+    font-size: 1.6rem;
+  }
+
+  .result-cep {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .container-btn-maps {
+    gap: 0.5rem;
+    margin-top: 1.2rem;
+  }
+
+  .icone-maps, .btn-maps {
+    font-size: 1.2rem;
+  }
+
+  .container-copiar {
+    margin-bottom: 1rem;
+  }
+
+  .btn-copiar {
+    padding: 0.4rem 0.8rem;
+    gap: 0.5rem;
+  }
+
+  .texto-botao-copiar {
+    font-size: 1.2rem;
+  }
+
+  .text-h2 {
+    font-size: 1rem;
+  }
+
+  .text-endereço-formatado {
+    font-size: 1.3rem;
+  }
+
+  .toast-mensagem {
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+}
+
+/* RESPONSIVIDADE PARA TABLETS (De 768px até 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .search-card {
+    max-width: 90%;
+  }
+  
+  .text-titulo {
+    font-size: 2.8rem;
+  }
+  
+  .result-info {
+    font-size: 1.6rem;
+  }
+}
