@@ -14,6 +14,7 @@ html {
   align-items: center;
   min-height: 100vh;
   background: var(--bg-gradient-page);
+  padding: 0 2rem;
 }
 
 .text-titulo {
@@ -38,7 +39,6 @@ html {
   padding: 5rem;
 
   box-shadow: var(--shadow-lg);
-
   background: var(--bg-gradient-sub-page);
 }
 
