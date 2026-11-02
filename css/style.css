@@ -312,200 +312,7 @@ html {
   border-left-color: var(--cor-falha);
 }
 
-/* RESPONSIVIDADE */
-/*@media (max-width: 575.98px) {
-  .search-card {
-    padding: 2.5rem;
-    max-width: 100%;
-  }
-
-  .text-titulo {
-    font-size: 2.5rem;
-  }
-
-  .input-busca {
-    padding: 1rem 0.5rem;
-  }
-
-  .input-busca::placeholder {
-    font-size: 1.3rem;
-    padding-left: 1rem;
-  }
-
-  .search-btn {
-    padding: 1.2rem 2rem;
-  }
-
-  .text-instrucao {
-    font-size: 1.1rem;
-  }
-
-  .text-h3 {
-    font-size: 1.2rem;
-  }
-
-  .result-info {
-    font-size: 1.5rem;
-  }
-
-  .result-info .text-span__logradouro {
-    font-size: 1.8rem;
-  }
-
-  .result-cep {
-    font-size: 1.7rem;
-    margin-top: 0.5rem;
-  }
-
-  .container-btn-maps {
-    gap: 0.5rem;
-    margin-top: 1.2rem;
-  }
-
-  .icone-maps {
-    font-size: 1.2rem;
-  }
-
-  .btn-maps {
-    font-size: 0.9rem;
-  }
-
-  .container-copiar {
-    margin-bottom: 1rem;
-  }
-
-  .btn-copiar {
-    padding: 0.4rem 0.8rem;
-    gap: 0.5rem;
-  }
-
-  .texto-botao-copiar {
-    font-size: 1.2rem;
-  }
-
-  .text-h2 {
-    font-size: 1rem;
-  }
-
-  .text-endereço-formatado {
-    font-size: 1.3rem;
-  }
-
-  .toast-mensagem {
-    padding: 1rem 1rem;
-    font-size: 1.2rem;
-  }
-}
-
-@media (min-width: 576px) and (max-width: 664px) {
-  .text-titulo {
-    font-size: 3rem;
-  }
-
-  .text-h3 {
-    font-size: 1.3rem;
-  }
-
-  .result-info {
-    font-size: 1.7rem;
-  }
-
-  .result-info .text-span__logradouro {
-    font-size: 2.3rem;
-  }
-
-  .result-cep {
-    font-size: 2.3rem;
-  }
-
-  .container-btn-maps {
-    gap: 0.5rem;
-    margin-top: 1.2rem;
-  }
-
-  .icone-maps {
-    font-size: 1.2rem;
-  }
-
-  .btn-maps {
-    font-size: 1rem;
-  }
-
-  .container-copiar {
-    margin-bottom: 1rem;
-  }
-
-  .btn-copiar {
-    padding: 0.5rem 1rem;
-    gap: 0.5rem;
-  }
-
-  .texto-botao-copiar {
-    font-size: 1.2rem;
-  }
-
-  .text-h2 {
-    font-size: 1rem;
-  }
-
-  .text-endereço-formatado {
-    font-size: 1.2rem;
-  }
-}
-
-@media (min-width: 665px) and (max-width: 750px) {
-  .text-titulo {
-    font-size: 3.5rem;
-  }
-
-  .container-copiar {
-    margin-bottom: 1rem;
-  }
-
-  .input-busca {
-    padding: 1.2rem 1.6rem;
-  }
-
-  .search-btn {
-    padding: 1.3rem 2.5rem;
-  }
-
-  .text-h3 {
-    font-size: 1.2rem;
-  }
-
-  .result-info {
-    margin-top: 0.5rem;
-    font-size: 1.7rem;
-  }
-
-  .result-info span {
-    color: var(--text-main);
-  }
-
-  .result-info .text-span__logradouro {
-    font-size: 2.7rem;
-  }
-
-  .result-cep {
-    font-size: 2.7rem;
-  }
-
-  .container-btn-maps {
-    gap: 0.5rem;
-    margin-top: 1.2rem;
-  }
-
-  .icone-maps {
-    font-size: 1.2rem;
-  }
-
-  .btn-maps {
-    font-size: 1.2rem;
-  }
-}/*
-
-/* ============================================================================================== */
+/*===================================================================================================*/
 /* RESPONSIVIDADE */
 @media (min-width: 665px) and (max-width: 750px) {
   .text-titulo {
@@ -514,7 +321,6 @@ html {
 
   .container-copiar {
     margin-bottom: 1rem;
-    /* border: solid 1px red; */
   }
 
   .input-busca {
@@ -723,8 +529,12 @@ html {
 }
 
 @media (max-width: 544px) and (min-width: 440px) {
+  .search-card {
+    padding: 2rem 1.5rem;
+  }
+
   .text-titulo {
-    font-size: 2.4rem;
+    font-size: 2.3rem;
   }
 
   .input-busca {
@@ -790,8 +600,12 @@ html {
 }
 
 @media (max-width: 439.98px) {
+  .search-card {
+    padding: 1.5rem 1rem;
+  }
+
   .text-titulo {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   .input-busca {
